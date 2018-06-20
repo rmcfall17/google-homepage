@@ -11,6 +11,8 @@ body {
   position: absolute;
   top: -35px;
   left: 75px;
+  height: 200px;
+  width: 600px;
 }
 
 li {
