@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background: white;
+    height: 100%;
+    width: 100%;
+
+}
+
+.logo {
+    position: absolute;
+    top: -35px;
+    left: 75px;
+}
+
+li {
+    display: inline;
+    padding: 6px;
+}
+
+ul {
+    display: inline;
+    padding: 14px;
+}
+
+.search_box {
+    height: 44px;
+    width: 460px;
+    border: 1px solid #d6d6d6;
+    position: absolute;
+    left: -19px;
+    top: 79px;
+    box-shadow: 0.1px 0.9px 7px 0px #c8c8c8;
+}
+
+.search_box:active, .search_box:hover {
+    box-shadow: 0.1px 0.9px 7px 1px #c8c8c8;
+}
+
+.search_box input {
+    font-size: 16px;
+    position: absolute;
+    border: none;
+    z-index: 7;
+    width: 90%;
+    top: 10px;
+    left: 10px;
+}
+
+.search_box input:focus {
+    border: none;
+    outline: none;
+}
+
+/* To make sure the x that clears text that chrome puts does not show up */
+
+.search_box input::-webkit-search-results-decoration,
+.search_box input::-webkit-search-cancel-button,
+.search_box input::-webkit-search-results-button,
+.search_box input::-webkit-search-decoration {
+    display: none;
+}
+
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 245px;
+    left: 39em;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 95%;
+    background: #f2f2f2;
+}
+
+.buttons {
+    position: absolute;
+    top: 154px;
+    left: 77px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+input.button {
+    border: none;
+    background: #f1f1f1;
+    color: #757575;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+input.button:hover {
+    /* border: 1px solid black; */
+    color: black;
+    background: #f1f1f1;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.icons {
+    position: relative;
+    float: right;
+}
+
+#options {
+    position: relative;
+    top: 7px;
+    left: -14px;
+}
+
+#bell {
+    position: relative;
+    top: 7px;
+    left: -12px;
+}
+
+#user {
+    position: relative;
+    top: 12px;
+    left: -10px;
+}
+
+ul.header {
+    padding: 22px;
+}
+
+ul.ft {
+    padding: 13px 24px;
+    color: #666;
+}
+
+ul.ft li {
+    padding-left: 11px;
+    padding-right: 13px;
+}
+
+.voice_search {
+    display: inline;
+    position: relative;
+    top: 9px;
+    left: 426px;
+}
