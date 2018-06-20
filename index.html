@@ -1,23 +1,62 @@
 <!DOCTYPE html>
-  <html>
+<html lang="en">
     <head>
-      <link href="styles.css" type="text/css" rel="stylesheet"/>
-      <title>Google Home</title>
+        <meta charset="utf-8">
+        <title>Google</title>
+        <link href="reset.css" type="text/css" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="images/icon.png" type="image/png" rel="shortcut icon" >
     </head>
     <body>
-      <ul>
-        <li><a>about</a></li>
-        <li><a>store</a></li>
-        <li><a>gmail</a><li>
-        <li><a>images</a><li>
-      </ul>
-      <br><br>
-      <img src="pictures/google-logo.jpeg"/>
-      <br>
-      <br>
-      <form>
-        <input type="text" name="search"><br><br>
-        <input type="submit" name="Search Google" value="Search Google"><input type="submit" name="Feeling Lucky" value="Feeling Lucky">
-      </form>
+        <header>
+            <nav>
+                <ul class="header left">
+                    <li>About</li>
+                    <li>Store</li>
+                </ul>
+                <div class="icons">
+                    <img id="options" src="images/options-no-h.png">
+                    <img id="bell" src="images/bell.png">
+                    <img id="user" src="images/user.png">
+                </div>
+                <ul class="header right">
+                    <li>Gmail</li>
+                    <li>Images</li>
+                </ul>
+
+            </nav>
+        </header>
+        <div class="center">
+            <img class="logo" src="images/google_logo.png" alt="The Google logo">
+            <div class="search_box">
+                <form>
+                    <input type="search">
+                </form>
+                <div class="voice_search">
+                    <img src="images/speech.png" height="24px" width="24px">
+                </div>
+            </div>
+            <br>
+            <div class="buttons">
+                <form>
+                    <input type="submit" value="Google Search" class="button">
+                    <input type="submit" value="I'm Feeling Lucky" class="button">
+                </form>
+            </div>
+
+        </div>
+        <footer>
+            <div class="footer">
+                <ul class="ft left">
+                    <li>Advertising</li>
+                    <li>Business</li>
+                </ul>
+                <ul class="ft right">
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Settings</li>
+                </ul>
+            </div>
+        </footer>
     </body>
-  <html>
+</html>
